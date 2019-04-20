@@ -31,7 +31,6 @@ public class QiTianDaSheng extends Monkey implements Serializable, Cloneable {
         } catch (Exception e){
             e.printStackTrace();
         }
-        System.out.println("test");
         return null;
     }
 }
