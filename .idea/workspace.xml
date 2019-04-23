@@ -2,22 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac26fc2e-0c7e-4c1f-b64d-603faca09e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/SystemController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/DelegateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/EmployeeA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/EmployeeB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/IEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/Leader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegateAndStrategy.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegate/target/classes/com/watson/delegate/mvc/WatsonDispatchServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegate/target/classes/com/watson/delegate/mvc/controller/MemberController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegate/target/classes/com/watson/delegate/mvc/controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegate/target/classes/com/watson/delegate/mvc/controller/SystemController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegate/target/classes/com/watson/delegate/simple/Boss.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegate/target/classes/com/watson/delegate/simple/DelegateTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegate/target/classes/com/watson/delegate/simple/EmployeeA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegate/target/classes/com/watson/delegate/simple/EmployeeB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegate/target/classes/com/watson/delegate/simple/IEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/delegate/target/classes/com/watson/delegate/simple/Leader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/watson/prototype/deep/DeepCloneTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/watson/prototype/deep/JinGuBang.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/watson/prototype/deep/Monkey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/watson/prototype/deep/QiTianDaSheng.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/watson/prototype/simple/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/watson/prototype/simple/ConcretePrototypeA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/watson/prototype/simple/Prototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/watson/prototype/simple/PrototypeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/MsgResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/PayStrategyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/AliPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/JDPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/PayStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/UnionPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/WechatPay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/CashbackStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/CouponStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/EmptyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/GroupbuyStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/IPromotionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionAcitvityTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/META-INF/strategy.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/pay/MsgResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/pay/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/pay/PayStrategyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/pay/payport/AliPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/pay/payport/JDPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/pay/payport/PayStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/pay/payport/Payment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/pay/payport/UnionPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/pay/payport/WechatPay.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/promotion/CashbackStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/promotion/CouponStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/promotion/EmptyStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/promotion/GroupbuyStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/promotion/IPromotionStrategy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/promotion/PromotionAcitvityTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/promotion/PromotionActivity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/promotion/PromotionStrategyFactory$PromotionKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy/target/classes/com/watson/strategy/promotion/PromotionStrategyFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delegate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/delegate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/delegate_strategy.text" beforeDir="false" afterPath="$PROJECT_DIR$/delegate_strategy.text" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +69,7 @@
     <ignored path="$PROJECT_DIR$/proxy/target/" />
     <ignored path="$PROJECT_DIR$/delegate/target/" />
     <ignored path="$PROJECT_DIR$/delegateTest/target/" />
+    <ignored path="$PROJECT_DIR$/strategy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,87 +82,131 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/Order.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            <state relative-caret-position="285">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/MemberController.java">
+        <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/Payment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="114">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/OrderController.java">
+        <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/AliPay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="152">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/SystemController.java">
+        <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/JDPay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="152">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delegate/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/WechatPay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="152">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delegate/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/UnionPay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="133">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/PayStrategyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/delegate_strategy.text">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/delegateAndStrategy.text">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delegate/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/Boss.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="177">
+              <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1633#1634#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1819#1820#0" expanded="true" />
+                <element signature="e#1856#1857#0" expanded="true" />
+                <element signature="e#1982#1983#0" expanded="true" />
+                <element signature="e#2016#2017#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/MsgResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding>
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,24 +227,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/singleton/src/main/java/com/watson/singleton/register/EnumSingleton.java" />
-        <option value="$PROJECT_DIR$/singleton/src/main/java/com/watson/singleton/register/EnumSingletonTest.java" />
-        <option value="$PROJECT_DIR$/singleton/src/main/java/com/watson/singleton/register/ContainerSingletonTest.java" />
-        <option value="$PROJECT_DIR$/singleton/src/main/java/com/watson/singleton/register/ContainerSingleton.java" />
-        <option value="$PROJECT_DIR$/singleton/src/main/java/com/watson/singleton/threadlocal/ThreadLocalSingleton.java" />
-        <option value="$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/simple/Prototype.java" />
-        <option value="$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/simple/ConcretePrototype.java" />
-        <option value="$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/simple/ConcretePrototypeA.java" />
-        <option value="$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/simple/Client.java" />
-        <option value="$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/simple/PrototypeTest.java" />
-        <option value="$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/deep/Monkey.java" />
-        <option value="$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/deep/JinGuBang.java" />
-        <option value="$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/deep/DeepCloneTest.java" />
-        <option value="$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/deep/QiTianDaSheng.java" />
-        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/FatherProxyTest.java" />
-        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/StaticProxyTest.java" />
-        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/Girl.java" />
-        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/MeiPo.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/JDKMeiPo.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/watsonproxy/WatsonInvocationHandler.java" />
@@ -184,10 +254,30 @@
         <option value="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/MemberController.java" />
         <option value="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/OrdderController.java" />
         <option value="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/SystemController.java" />
-        <option value="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/delegate/pom.xml" />
         <option value="$PROJECT_DIR$/delegateAndStrategy.text" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/IPromotionStrategy.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/EmptyStrategy.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/CouponStrategy.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/CashbackStrategy.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/GroupbuyStrategy.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionActivity.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/strategy/pom.xml" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionStrategyFactory.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionAcitvityTest.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/MsgResult.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/Payment.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/AliPay.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/JDBaitiao.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/JDPay.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/WechatPay.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/UnionPay.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/PayStrategy.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/Order.java" />
+        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/PayStrategyTest.java" />
+        <option value="$PROJECT_DIR$/delegate_strategy.text" />
+        <option value="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java" />
       </list>
     </option>
   </component>
@@ -224,104 +314,6 @@
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
@@ -373,7 +365,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DelegateTest">
+  <component name="RunManager" selected="Application.PayStrategyTest">
     <configuration name="CGlibMeiPoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.watson.proxy.dynamicproxy.cglibproxy.CGlibMeiPoTest" />
       <module name="proxy" />
@@ -400,12 +392,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDKProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watson.proxy.dynamicproxy.jdkproxy.JDKProxyTest" />
-      <module name="proxy" />
+    <configuration name="PayStrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watson.strategy.pay.PayStrategyTest" />
+      <module name="strategy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watson.proxy.dynamicproxy.jdkproxy.*" />
+          <option name="PATTERN" value="com.watson.strategy.pay.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,12 +405,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watson.proxy.staticproxy.StaticProxyTest" />
-      <module name="proxy" />
+    <configuration name="PromotionAcitvityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watson.strategy.promotion.PromotionAcitvityTest" />
+      <module name="strategy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watson.proxy.staticproxy.*" />
+          <option name="PATTERN" value="com.watson.strategy.promotion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,11 +433,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PayStrategyTest" />
+        <item itemvalue="Application.PromotionAcitvityTest" />
         <item itemvalue="Application.DelegateTest" />
         <item itemvalue="Application.CGlibMeiPoTest" />
         <item itemvalue="Application.WatsonProxyTest" />
-        <item itemvalue="Application.JDKProxyTest" />
-        <item itemvalue="Application.StaticProxyTest" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +459,10 @@
       <workItem from="1555720751153" duration="245000" />
       <workItem from="1555721023786" duration="16705000" />
       <workItem from="1555935878235" duration="2337000" />
-      <workItem from="1555939147871" duration="8576000" />
+      <workItem from="1555939147871" duration="8738000" />
+      <workItem from="1555974944556" duration="816000" />
+      <workItem from="1555978519812" duration="2210000" />
+      <workItem from="1556021327845" duration="5974000" />
     </task>
     <task id="LOCAL-00001" summary="原型模式">
       <created>1555685142772</created>
@@ -532,18 +527,37 @@
       <option name="project" value="LOCAL" />
       <updated>1555948145101</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="委派模式">
+      <created>1555952197939</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555952197939</updated>
+    </task>
+    <task id="LOCAL-00011" summary="委派模式">
+      <created>1555952266780</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555952266780</updated>
+    </task>
+    <task id="LOCAL-00012" summary="委派模式">
+      <created>1555952313290</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555952313290</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37666000" />
+    <option name="totallyTimeSpent" value="46828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Web" sideWeight="0.51265824" side_tool="true" weight="0.2774799" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48734176" visible="true" weight="0.2774799" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48734176" visible="true" weight="0.28954422" />
       <window_info id="Structure" order="1" sideWeight="0.51265824" side_tool="true" weight="0.2774799" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -551,7 +565,7 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="8" sideWeight="0.51265824" side_tool="true" weight="0.2774799" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49463806" visible="true" weight="0.3286119" />
@@ -565,6 +579,7 @@
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49262735" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49798927" weight="0.32719547" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -597,158 +612,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="委派模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/deep/DeepCloneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/simple/PrototypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/simple/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/deep/Monkey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/deep/JinGuBang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/deep/QiTianDaSheng.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/simple/ConcretePrototypeA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototype/src/main/java/com/watson/prototype/simple/Prototype.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/singleton/src/main/java/com/watson/singleton/register/ContainerSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/watsonproxy/$Proxy0.java" />
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/JDKProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/watsonproxy/WatsonInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/watsonproxy/WatsonClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/watsonproxy/WatsonProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/Father.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/IPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/StaticProxyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -861,66 +724,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/IEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/EmployeeA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/EmployeeB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding>
-            <element signature="e#134#135#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/DelegateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/Leader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/Boss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/IEmployee.java" />
+    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/EmployeeA.java" />
+    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/EmployeeB.java" />
+    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/DelegateTest.java" />
+    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/Leader.java" />
+    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/simple/Boss.java" />
     <entry file="uml://JAVA/com.watson.delegate.simple.DelegateTest">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -999,29 +808,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/Boss.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegateTest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java" />
+    <entry file="file://$PROJECT_DIR$/delegateTest/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/delegateTest/src/main/webapp/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/MemberController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1043,27 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegate/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/delegate/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1078,10 +846,226 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/delegateAndStrategy.text">
+    <entry file="file://$PROJECT_DIR$/delegate/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        <state relative-caret-position="475">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/Boss.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/IPromotionStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/EmptyStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/CouponStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/CashbackStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/GroupbuyStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionStrategyFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionAcitvityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/AliPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/JDPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/WechatPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/UnionPay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/MsgResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/PayStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/PayStrategyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delegate_strategy.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1819#1820#0" expanded="true" />
+            <element signature="e#1856#1857#0" expanded="true" />
+            <element signature="e#1982#1983#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
