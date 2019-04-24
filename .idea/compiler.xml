@@ -11,6 +11,7 @@
         <module name="proxy" />
         <module name="prototype" />
         <module name="delegate" />
+        <module name="adapter" />
         <module name="strategy" />
       </profile>
     </annotationProcessing>
