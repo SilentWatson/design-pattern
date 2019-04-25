@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac26fc2e-0c7e-4c1f-b64d-603faca09e40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adapter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/ResultMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v1/SiginForThirdServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v1/service/SiginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v1/service/SinginForThirdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/IPassportForThird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/PassportForThirdAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/adapter/LoginAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/adapter/LoginForQQAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/poweradapter/AC220.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/poweradapter/DC5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/poweradapter/PowerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/poweradapter/PowerAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/BasePancake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/EggDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/HotdogDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/Pancake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/PancakeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/PancakeDecoratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/DecoratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/ISigninService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/ResultMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/SigninService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/ISignForThirdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/SignForQQDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/SignForThirdService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/decorator_observer.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -29,6 +31,7 @@
     <ignored path="$PROJECT_DIR$/strategy/target/" />
     <ignored path="$PROJECT_DIR$/template/target/" />
     <ignored path="$PROJECT_DIR$/adapter/target/" />
+    <ignored path="$PROJECT_DIR$/decorator/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,110 +44,130 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/poweradapter/PowerAdapterTest.java">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/ISignForThirdService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="141">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/ResultMsg.java">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/SignForThirdService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#663#664#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/DecoratorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/decorator_observer.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/SignForQQDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/HotdogDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/ISigninService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/Member.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v1/SiginForThirdServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/ResultMsg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v1/service/SiginService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+            <state relative-caret-position="329">
+              <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v1/service/SinginForThirdService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/IPassportForThird.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/PassportForThirdAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/adapter/LoginAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/adapter/LoginForQQAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-              <folding>
-                <element signature="e#217#218#0" expanded="true" />
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/Member.java">
+        <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/SigninService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -157,8 +180,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -169,21 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/DelegateTest.java" />
-        <option value="$PROJECT_DIR$/delegateTest/pom.xml" />
-        <option value="$PROJECT_DIR$/delegate/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/MemberController.java" />
-        <option value="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/OrdderController.java" />
-        <option value="$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/SystemController.java" />
-        <option value="$PROJECT_DIR$/delegate/pom.xml" />
-        <option value="$PROJECT_DIR$/delegateAndStrategy.text" />
-        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/IPromotionStrategy.java" />
-        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/EmptyStrategy.java" />
-        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/CouponStrategy.java" />
-        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/CashbackStrategy.java" />
-        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/GroupbuyStrategy.java" />
-        <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionActivity.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/strategy/pom.xml" />
         <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionStrategyFactory.java" />
         <option value="$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionAcitvityTest.java" />
@@ -220,6 +228,21 @@
         <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/adapter/LoginAdapter.java" />
         <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/adapter/LoginForQQAdapter.java" />
         <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/PassportForThirdAdapter.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/Pancake.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/Pancake.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/BasePancake.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/PancakeDecoratorTest.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/ResultMsg.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/Member.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/ISignForThirdService.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/PancakeDecorator.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/EggDecorator.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/HotdogDecorator.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/SignForQQDecorator.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/SignForThirdService.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/ResultMsg.java" />
+        <option value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/DecoratorTest.java" />
+        <option value="$PROJECT_DIR$/decorator_observer.txt" />
       </list>
     </option>
   </component>
@@ -250,6 +273,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,121 +283,12 @@
             </path>
             <path>
               <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="loginadapter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="loginadapter" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="loginadapter" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
-              <item name="loginadapter" type="462c0819:PsiDirectoryNode" />
-              <item name="v2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -382,7 +297,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555719901307" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -400,6 +315,8 @@
       <recent name="com.watson.proxy.dynamicproxy.watsonproxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\designpattern\decorator\src\main\java\com\watson\decorator\passport" />
+      <recent name="E:\IdeaProjects\designpattern\decorator\src\main\java\com\watson\decorator" />
       <recent name="E:\IdeaProjects\designpattern\adapter\src\main\java\com\watson\adapter\loginadapter" />
       <recent name="E:\IdeaProjects\designpattern\delegate\src\main\java\com\watson\delegate" />
       <recent name="E:\IdeaProjects\designpattern\delegate\src\main\java\com\watson\delegate\simple" />
@@ -417,13 +334,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PowerAdapterTest">
-    <configuration name="DelegateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watson.delegate.simple.DelegateTest" />
-      <module name="delegateTest" />
+  <component name="RunManager" selected="Application.DecoratorTest">
+    <configuration name="DecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watson.decorator.passport.DecoratorTest" />
+      <module name="decorator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watson.delegate.simple.*" />
+          <option name="PATTERN" value="com.watson.decorator.passport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,6 +354,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.watson.template.course.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PancakeDecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watson.decorator.pancake.PancakeDecoratorTest" />
+      <module name="decorator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.watson.decorator.pancake.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -470,26 +400,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PromotionAcitvityTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watson.strategy.promotion.PromotionAcitvityTest" />
-      <module name="strategy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.watson.strategy.promotion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorTest" />
+        <item itemvalue="Application.PancakeDecoratorTest" />
         <item itemvalue="Application.PowerAdapterTest" />
         <item itemvalue="Application.NetworkCourseTest" />
         <item itemvalue="Application.PayStrategyTest" />
-        <item itemvalue="Application.PromotionAcitvityTest" />
-        <item itemvalue="Application.DelegateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +435,9 @@
       <workItem from="1556058060301" duration="2592000" />
       <workItem from="1556065487591" duration="2344000" />
       <workItem from="1556105625169" duration="3056000" />
-      <workItem from="1556145579743" duration="1718000" />
+      <workItem from="1556145579743" duration="2288000" />
+      <workItem from="1556154622949" duration="721000" />
+      <workItem from="1556195792142" duration="7011000" />
     </task>
     <task id="LOCAL-00001" summary="原型模式">
       <created>1555685142772</created>
@@ -618,17 +537,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556065735587</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="适配器模式">
+      <created>1556147946609</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1556147946609</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58389000" />
+    <option name="totallyTimeSpent" value="66691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48734176" visible="true" weight="0.27479893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48734176" visible="true" weight="0.28284183" />
       <window_info id="Structure" order="1" sideWeight="0.51265824" side_tool="true" weight="0.2774799" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -639,7 +564,7 @@
       <window_info id="Web" order="8" sideWeight="0.51265824" side_tool="true" weight="0.2774799" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49463806" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49463806" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -681,246 +606,10 @@
     <MESSAGE value="test" />
     <MESSAGE value="委派模式" />
     <MESSAGE value="模板方法模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="模板方法模式" />
+    <MESSAGE value="适配器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="适配器模式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/controller/SystemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegate/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegate/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegate/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/simple/Boss.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/IPromotionStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/EmptyStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/CouponStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/CashbackStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/GroupbuyStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionStrategyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding>
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/promotion/PromotionAcitvityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/AliPay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/JDPay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/WechatPay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/UnionPay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/payport/PayStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strategy/src/main/java/com/watson/strategy/pay/PayStrategyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegate_strategy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/watson/delegate/mvc/WatsonDispatchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/src/main/java/com/watson/template/course/NetworkCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/src/main/java/com/watson/template/course/JavaCourse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1093,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/Member.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/IPassportForThird.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1116,14 +798,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v2/adapter/LoginForQQAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="114">
           <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding>
             <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1134,16 +821,308 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/Pancake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#79#80#0" expanded="true" />
+            <element signature="e#103#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/Pancake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/BasePancake.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/PancakeDecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.watson.decorator.pancake.BasePancake">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.watson.decorator.pancake.BasePancake</OriginalElement>
+          <nodes>
+            <node x="151.4154761904762" y="326.0">com.watson.decorator.pancake.PancakeDecoratorTest</node>
+            <node x="69.50000000000001" y="0.0">com.watson.decorator.pancake.Pancake</node>
+            <node x="65.12619047619049" y="168.0">com.watson.decorator.pancake.PancakeDecorator</node>
+            <node x="0.0" y="247.0">com.watson.decorator.pancake.EggDecorator</node>
+            <node x="142.0" y="247.0">com.watson.decorator.pancake.HotdogDecorator</node>
+            <node x="176.21547619047618" y="79.0">com.watson.decorator.pancake.BasePancake</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.watson.decorator.pancake.PancakeDecoratorTest" target="com.watson.decorator.pancake.HotdogDecorator">
+              <point x="-21.75" y="-14.5" />
+              <point x="216.6654761904762" y="301.0" />
+              <point x="213.0" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.watson.decorator.pancake.PancakeDecoratorTest" target="com.watson.decorator.pancake.BasePancake">
+              <point x="21.749999999999993" y="-14.5" />
+              <point x="260.16547619047617" y="301.0" />
+              <point x="294.5" y="301.0" />
+              <point x="294.5" y="148.0" />
+              <point x="257.41547619047617" y="148.0" />
+              <point x="23.200000000000017" y="14.5" />
+            </edge>
+            <edge source="com.watson.decorator.pancake.PancakeDecorator" target="com.watson.decorator.pancake.Pancake">
+              <point x="-49.33333333333334" y="-14.5" />
+              <point x="89.79285714285714" y="128.0" />
+              <point x="103.50000000000001" y="128.0" />
+              <point x="103.50000000000001" y="54.0" />
+              <point x="84.50000000000001" y="54.0" />
+              <point x="-30.0" y="14.5" />
+            </edge>
+            <edge source="com.watson.decorator.pancake.PancakeDecorator" target="com.watson.decorator.pancake.BasePancake">
+              <point x="49.333333333333314" y="-14.5" />
+              <point x="188.4595238095238" y="148.0" />
+              <point x="211.0154761904762" y="148.0" />
+              <point x="-23.199999999999996" y="14.5" />
+            </edge>
+            <edge source="com.watson.decorator.pancake.EggDecorator" target="com.watson.decorator.pancake.PancakeDecorator">
+              <point x="40.666666666666686" y="-14.5" />
+              <point x="101.66666666666669" y="222.0" />
+              <point x="120.62619047619049" y="222.0" />
+              <point x="-18.5" y="14.5" />
+            </edge>
+            <edge source="com.watson.decorator.pancake.BasePancake" target="com.watson.decorator.pancake.Pancake">
+              <point x="1.4210854715202004E-14" y="-14.5" />
+              <point x="234.21547619047618" y="54.0" />
+              <point x="144.5" y="54.0" />
+              <point x="29.99999999999997" y="14.5" />
+            </edge>
+            <edge source="com.watson.decorator.pancake.HotdogDecorator" target="com.watson.decorator.pancake.PancakeDecorator">
+              <point x="-47.33333333333334" y="-14.5" />
+              <point x="165.66666666666669" y="222.0" />
+              <point x="157.6261904761905" y="222.0" />
+              <point x="18.5" y="14.5" />
+            </edge>
+            <edge source="com.watson.decorator.pancake.HotdogDecorator" target="com.watson.decorator.pancake.BasePancake">
+              <point x="47.33333333333334" y="-14.5" />
+              <point x="260.33333333333337" y="222.0" />
+              <point x="246.0" y="222.0" />
+              <point x="246.0" y="148.0" />
+              <point x="234.21547619047618" y="148.0" />
+              <point x="1.4210854715202004E-14" y="14.5" />
+            </edge>
+            <edge source="com.watson.decorator.pancake.PancakeDecoratorTest" target="com.watson.decorator.pancake.EggDecorator">
+              <point x="-65.25" y="-14.5" />
+              <point x="173.1654761904762" y="301.0" />
+              <point x="61.0" y="301.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.watson.decorator.pancake.EggDecorator" target="com.watson.decorator.pancake.BasePancake">
+              <point x="-40.66666666666666" y="-14.5" />
+              <point x="20.333333333333343" y="222.0" />
+              <point x="36.24880952380954" y="222.0" />
+              <point x="36.24880952380954" y="138.0" />
+              <point x="187.81547619047618" y="138.0" />
+              <point x="-46.4" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-153.0" y="220.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v1/SiginForThirdServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v2/IPassportForThird.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v2/PassportForThirdAdapter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v2/adapter/LoginAdapter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v2/adapter/LoginForQQAdapter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v1/service/SiginService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/Member.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v1/service/SinginForThirdService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/ResultMsg.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/PancakeDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/EggDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/HotdogDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/ISigninService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/SigninService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/old/ResultMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="43" column="18" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding>
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/ISignForThirdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/SignForQQDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/upgrade/SignForThirdService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#663#664#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/passport/DecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/decorator_observer.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
         </state>
       </provider>
     </entry>

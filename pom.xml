@@ -16,6 +16,7 @@
         <module>strategy</module>
         <module>template</module>
         <module>adapter</module>
+        <module>decorator</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/cglib/cglib -->
