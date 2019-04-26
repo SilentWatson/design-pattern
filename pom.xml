@@ -17,6 +17,7 @@
         <module>template</module>
         <module>adapter</module>
         <module>decorator</module>
+        <module>observer</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/cglib/cglib -->
