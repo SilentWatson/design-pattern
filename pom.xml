@@ -18,6 +18,7 @@
         <module>adapter</module>
         <module>decorator</module>
         <module>observer</module>
+        <module>proxy</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/cglib/cglib -->

@@ -11,6 +11,7 @@
         <module name="template" />
         <module name="observer" />
         <module name="prototype" />
+        <module name="proxy" />
         <module name="delegate" />
         <module name="adapter" />
         <module name="strategy" />
