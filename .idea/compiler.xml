@@ -11,7 +11,6 @@
         <module name="template" />
         <module name="observer" />
         <module name="prototype" />
-        <module name="proxy" />
         <module name="delegate" />
         <module name="adapter" />
         <module name="strategy" />
@@ -19,6 +18,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="delegateTest" target="1.8" />
+      <module name="proxy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
