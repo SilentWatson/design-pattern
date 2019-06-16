@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac26fc2e-0c7e-4c1f-b64d-603faca09e40" name="Default Changelist" comment="create proxy pattern module">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/proxy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/watson/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="ac26fc2e-0c7e-4c1f-b64d-603faca09e40" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/TestDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/Girl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/MatrimonialAgency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/TestStaticProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/fatherson/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/fatherson/Son.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strategy/target/classes/META-INF/strategy.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/singleton/target/" />
@@ -34,30 +34,87 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/TestStaticProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/Girl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <folding>
+                <element signature="e#197#198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/MatrimonialAgency.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/TestDynamicProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="409" column="28" selection-start-line="409" selection-start-column="28" selection-end-line="409" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/proxy/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/lang/reflect/Proxy.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="493">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -77,16 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template/src/main/java/com/watson/template/jdbc/RowMapper.java" />
-        <option value="$PROJECT_DIR$/template/src/main/java/com/watson/template/jdbc/JdbcTemplate.java" />
-        <option value="$PROJECT_DIR$/template/src/main/java/com/watson/template/jdbc/Member.java" />
-        <option value="$PROJECT_DIR$/template/src/main/java/com/watson/template/jdbc/dao/MemberDao.java" />
-        <option value="$PROJECT_DIR$/template_adapter.txt" />
-        <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/poweradapter/AC220.java" />
-        <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/poweradapter/DC5.java" />
-        <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/poweradapter/PowerAdapter.java" />
-        <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/poweradapter/PowerAdapterTest.java" />
-        <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/ResultMsg.java" />
         <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v1/SiginForThirdServiceTest.java" />
         <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v1/service/SiginService.java" />
         <option value="$PROJECT_DIR$/adapter/src/main/java/com/watson/adapter/loginadapter/v1/service/SinginForThirdService.java" />
@@ -128,6 +175,16 @@
         <option value="$PROJECT_DIR$/设计模式总结.txt" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/Song.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/Person.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/Son.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/Father.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/fatherson/Father.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/TestStaticProxy.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/Girl.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/JdkProxyTest.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/MatrimonialAgency.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/TestDynamicProxy.java" />
       </list>
     </option>
   </component>
@@ -146,17 +203,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="proxy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="proxy" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -176,62 +223,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designpattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="watson" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -276,26 +268,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.TestDynamicProxy">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.watson.App" />
       <module name="proxy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.watson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GperAdviceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watson.observer.gperadvice.GperAdviceTest" />
-      <module name="observer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.watson.observer.gperadvice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -329,12 +308,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoustEventTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.watson.observer.events.mouseevent.MoustEventTest" />
-      <module name="observer" />
+    <configuration name="TestDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watson.proxy.dynamicproxy.TestDynamicProxy" />
+      <module name="proxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.watson.observer.events.mouseevent.*" />
+          <option name="PATTERN" value="com.watson.proxy.dynamicproxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -342,60 +321,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="TestStaticProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.watson.proxy.staticproxy.TestStaticProxy" />
       <module name="proxy" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="proxy" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.watson.proxy.staticproxy.fatherson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDynamicProxy" />
+        <item itemvalue="Application.TestStaticProxy" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.GuavaGperTest" />
         <item itemvalue="Application.GuavaEventTest" />
-        <item itemvalue="Application.MoustEventTest" />
-        <item itemvalue="Application.GperAdviceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +378,7 @@
       <workItem from="1556327438857" duration="243000" />
       <workItem from="1556851127204" duration="37000" />
       <workItem from="1556851290965" duration="49000" />
-      <workItem from="1560584330572" duration="2797000" />
+      <workItem from="1560584330572" duration="8608000" />
     </task>
     <task id="LOCAL-00001" summary="原型模式">
       <created>1555685142772</created>
@@ -575,11 +520,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560584610944</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="create proxy pattern module">
+      <created>1560587998354</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1560587998354</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79814000" />
+    <option name="totallyTimeSpent" value="85625000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -592,18 +544,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48734176" visible="true" weight="0.31099194" />
-      <window_info id="Structure" order="1" sideWeight="0.51265824" side_tool="true" weight="0.2774799" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4858357" visible="true" weight="0.31032172" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Structure" order="5" sideWeight="0.5141643" side_tool="true" weight="0.31032172" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" sideWeight="0.51265824" side_tool="true" weight="0.2774799" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49463806" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932975" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -611,15 +564,15 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5053619" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50402147" side_tool="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49262735" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="12" sideWeight="0.49798927" visible="true" weight="0.32719547" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49597856" weight="0.32719547" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -640,6 +593,32 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="原型模式" />
     <MESSAGE value="test over" />
@@ -655,140 +634,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="create proxy pattern module" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/BasePancake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-          <folding>
-            <element signature="e#125#126#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/PancakeDecoratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.watson.decorator.pancake.BasePancake">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.watson.decorator.pancake.BasePancake</OriginalElement>
-          <nodes>
-            <node x="151.4154761904762" y="326.0">com.watson.decorator.pancake.PancakeDecoratorTest</node>
-            <node x="69.50000000000001" y="0.0">com.watson.decorator.pancake.Pancake</node>
-            <node x="65.12619047619049" y="168.0">com.watson.decorator.pancake.PancakeDecorator</node>
-            <node x="0.0" y="247.0">com.watson.decorator.pancake.EggDecorator</node>
-            <node x="142.0" y="247.0">com.watson.decorator.pancake.HotdogDecorator</node>
-            <node x="176.21547619047618" y="79.0">com.watson.decorator.pancake.BasePancake</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.watson.decorator.pancake.PancakeDecoratorTest" target="com.watson.decorator.pancake.HotdogDecorator">
-              <point x="-21.75" y="-14.5" />
-              <point x="216.6654761904762" y="301.0" />
-              <point x="213.0" y="301.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.watson.decorator.pancake.PancakeDecoratorTest" target="com.watson.decorator.pancake.BasePancake">
-              <point x="21.749999999999993" y="-14.5" />
-              <point x="260.16547619047617" y="301.0" />
-              <point x="294.5" y="301.0" />
-              <point x="294.5" y="148.0" />
-              <point x="257.41547619047617" y="148.0" />
-              <point x="23.200000000000017" y="14.5" />
-            </edge>
-            <edge source="com.watson.decorator.pancake.PancakeDecorator" target="com.watson.decorator.pancake.Pancake">
-              <point x="-49.33333333333334" y="-14.5" />
-              <point x="89.79285714285714" y="128.0" />
-              <point x="103.50000000000001" y="128.0" />
-              <point x="103.50000000000001" y="54.0" />
-              <point x="84.50000000000001" y="54.0" />
-              <point x="-30.0" y="14.5" />
-            </edge>
-            <edge source="com.watson.decorator.pancake.PancakeDecorator" target="com.watson.decorator.pancake.BasePancake">
-              <point x="49.333333333333314" y="-14.5" />
-              <point x="188.4595238095238" y="148.0" />
-              <point x="211.0154761904762" y="148.0" />
-              <point x="-23.199999999999996" y="14.5" />
-            </edge>
-            <edge source="com.watson.decorator.pancake.EggDecorator" target="com.watson.decorator.pancake.PancakeDecorator">
-              <point x="40.666666666666686" y="-14.5" />
-              <point x="101.66666666666669" y="222.0" />
-              <point x="120.62619047619049" y="222.0" />
-              <point x="-18.5" y="14.5" />
-            </edge>
-            <edge source="com.watson.decorator.pancake.BasePancake" target="com.watson.decorator.pancake.Pancake">
-              <point x="1.4210854715202004E-14" y="-14.5" />
-              <point x="234.21547619047618" y="54.0" />
-              <point x="144.5" y="54.0" />
-              <point x="29.99999999999997" y="14.5" />
-            </edge>
-            <edge source="com.watson.decorator.pancake.HotdogDecorator" target="com.watson.decorator.pancake.PancakeDecorator">
-              <point x="-47.33333333333334" y="-14.5" />
-              <point x="165.66666666666669" y="222.0" />
-              <point x="157.6261904761905" y="222.0" />
-              <point x="18.5" y="14.5" />
-            </edge>
-            <edge source="com.watson.decorator.pancake.HotdogDecorator" target="com.watson.decorator.pancake.BasePancake">
-              <point x="47.33333333333334" y="-14.5" />
-              <point x="260.33333333333337" y="222.0" />
-              <point x="246.0" y="222.0" />
-              <point x="246.0" y="148.0" />
-              <point x="234.21547619047618" y="148.0" />
-              <point x="1.4210854715202004E-14" y="14.5" />
-            </edge>
-            <edge source="com.watson.decorator.pancake.PancakeDecoratorTest" target="com.watson.decorator.pancake.EggDecorator">
-              <point x="-65.25" y="-14.5" />
-              <point x="173.1654761904762" y="301.0" />
-              <point x="61.0" y="301.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.watson.decorator.pancake.EggDecorator" target="com.watson.decorator.pancake.BasePancake">
-              <point x="-40.66666666666666" y="-14.5" />
-              <point x="20.333333333333343" y="222.0" />
-              <point x="36.24880952380954" y="222.0" />
-              <point x="36.24880952380954" y="138.0" />
-              <point x="187.81547619047618" y="138.0" />
-              <point x="-46.4" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-153.0" y="220.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Properties</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v1/SiginForThirdServiceTest.java" />
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v2/IPassportForThird.java" />
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v2/PassportForThirdAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v2/adapter/LoginAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v2/adapter/LoginForQQAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v1/service/SiginService.java" />
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/Member.java" />
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/v1/service/SinginForThirdService.java" />
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/loginadapter/ResultMsg.java" />
-    <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/PancakeDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/decorator/src/main/java/com/watson/decorator/pancake/EggDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1049,16 +894,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="53" lean-forward="true" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/test/java/com/watson/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1078,11 +913,140 @@
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/test/java/com/watson/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proxy/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="-600">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/proxy.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/fatherson/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#140#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/fatherson/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#84#85#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/staticproxy/TestStaticProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/Girl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/JdkProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/jdkproxy/MatrimonialAgency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/watson/proxy/dynamicproxy/TestDynamicProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="409" column="28" selection-start-line="409" selection-start-column="28" selection-end-line="409" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/reflect/ReflectAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/java/lang/reflect/Proxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
         </state>
       </provider>
     </entry>
