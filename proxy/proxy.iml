@@ -8,5 +8,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="Maven: cglib:cglib:3.2.10" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.ow2.asm:asm:7.0" level="project" />
   </component>
 </module>
