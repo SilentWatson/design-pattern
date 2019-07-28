@@ -19,6 +19,12 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="delegateTest" target="1.8" />
+      <module name="design-pattern-adapter" target="1.5" />
+      <module name="design-pattern-decorator" target="1.5" />
+      <module name="design-pattern-factory" target="1.5" />
+      <module name="design-pattern-proxy" target="1.7" />
+      <module name="design-pattern-state" target="1.8" />
+      <module name="design-pattern-strategy" target="1.8" />
       <module name="proxy" target="1.8" />
     </bytecodeTargetLevel>
   </component>
